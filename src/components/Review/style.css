@@ -1,0 +1,25 @@
+.review-container {
+  width: calc(100% - 400px);
+  max-height: 250px;
+
+  margin: 20px 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.review-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-button {
+  cursor: pointer;
+  padding-right: 8px;
+  flex-direction: row;
+}
+
+.review-count {
+  color: palevioletred;
+}
